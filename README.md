@@ -14,5 +14,5 @@ To run the Nest CLI development server from docker you need to map the port.
 For example use
 ```
 cd MyDemo
-docker run -u $(id -u) --rm -p 33000-33050:33000-33050" -v "$PWD":/app naologic/bee11-microservices-dev-docker npm run start:dev
+docker run -p 33000-33050:33000-33050" -v "$PWD":/app naologic/bee11-microservices-dev-docker npm run start:dev
 ```
